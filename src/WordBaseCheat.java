@@ -87,7 +87,7 @@ public class WordBaseCheat {
 
 	private static void findBestWord(int row, int col) {
 		Letter root = new Letter(board[row][col],row,col);
-		addLayer(root,10,1);
+		addLayer(root,15,1);
 		printWords(root);
 		
 		
